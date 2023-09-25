@@ -41,3 +41,31 @@ background-color:yellow;
 .example2{
     align-items:stretch;
 }
+.example3 .child{
+    flex:1;
+}
+.purple{
+    background-color:purple;
+}
+.orange{
+    background-color:orange;
+}
+.example4{
+    flex-direction:row;
+    justify-content:space-evenly;
+    min-height:300px;
+}
+.box{
+    min-height:50px;
+    min-width:50px;
+}
+.one{
+background-color:blue;
+min-width:30px;
+min-height:30px;
+}
+.two{
+background-color:cyan;
+    min-width:30px;
+    min-height:30px;
+}
