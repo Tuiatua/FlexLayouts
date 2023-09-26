@@ -51,21 +51,46 @@ background-color:yellow;
     background-color:orange;
 }
 .example4{
-    flex-direction:row;
+flex-direction:column;
     justify-content:space-evenly;
-    min-height:300px;
+    min-height:400px;
 }
-.box{
-    min-height:50px;
-    min-width:50px;
+.row{
+    border:solid blue;
+    min-height:40px;
+    display:flex;
+    min-width:40px;
 }
-.one{
-background-color:blue;
-min-width:30px;
-min-height:30px;
+.blue{
+    background-color:blue;
+    min-height:27px;
+    width:20%;
 }
-.two{
-background-color:cyan;
-    min-width:30px;
-    min-height:30px;
+.cyan{
+    background-color:cyan;
+    min-height:27px;
+    width:80%;
+}
+.example5{
+flex-direction:column;
+    min-height:480px;
+    justify-content:space-evenly
+}
+.five{
+background-color:yellow;
+    flex-direction:row;
+    height:80px;
+}
+.stripes{
+    border:solid blue;
+    flex-direction:row;
+    height:320px;
+    display:flex;
+    margin:10px;
+}
+.column{
+    background-color:blue;
+    min-height:280px;
+    min-width:300px;
+    margin:30px;
 }
